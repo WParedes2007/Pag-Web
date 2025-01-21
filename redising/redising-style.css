@@ -1,0 +1,70 @@
+@font-face{
+    font-family: 'Oswald';
+    src: url(assets/fonts/Oswald/Oswald-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Playwrite';
+    src: url(assets/fonts/Playwrite_NZ/PlaywriteNZ-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Cuprum';
+    src: url(assets/fonts/Cuprum/Cuprum-VariableFont_wght.ttf);
+}
+
+body{
+    margin: 0px;
+}
+
+caption, thead{
+    color: brown;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+}
+
+.anav{
+    font-family: Oswald, 'sans-serif';
+    color: white;
+    text-decoration: none;
+    align-items: center;
+}
+
+nav{
+    background-color: burlywood;
+    padding: 20px;
+    align-items: center;
+}
+
+.ulnav{
+    font-family: Oswald, "sans-serif";
+    display: flex;
+    list-style-type: none;
+}
+
+.linav{
+    padding-right: 30px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    font-family: Cuprum,"sans-serif";
+    margin: 40px;
+    border: 2px solid black;
+}
+
+tbody{
+    border-right: 2px solid black;
+}
+
+footer{
+    font-family: Oswald, "sans-serif";
+    font-size: 10px;
+    text-align: center;
+    position: relative;
+}
