@@ -1,0 +1,17 @@
+nav{
+    background-color: #42557a;
+    padding: 20px;
+    align-items: center;
+    font-family: Oswald, 'sans-serif';
+    text-decoration-color: white;
+}
+
+footer{
+    background-color: #42557a;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+}
+
+

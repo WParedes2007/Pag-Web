@@ -1,0 +1,81 @@
+@font-face{
+    font-family: 'Oswald';
+    src: url(assets/fonts/Oswald/Oswald-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Playwrite';
+    src: url(assets/fonts/Playwrite_NZ/PlaywriteNZ-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Cuprum';
+    src: url(assets/fonts/Cuprum/Cuprum-VariableFont_wght.ttf);
+}
+
+body{
+    margin: 0px;
+}
+
+caption, thead{
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+        font-size: large;
+
+}
+
+.anav{
+    font-family: Oswald, 'sans-serif';
+    align-items: center;
+    font-size: large;
+}
+
+nav{
+    background-color: #42557a;
+    padding: 20px;
+    align-items: center;
+    font-family: Oswald, 'sans-serif';
+    text-decoration-color: white;
+}
+
+.ulnav{
+    font-family: Oswald, "sans-serif";
+    display: flex;
+    list-style-type: none;
+}
+
+.linav{
+    color: white;
+    font-size: large;
+    padding-right: 30px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    font-family: Cuprum,"sans-serif";
+    margin: 40px;
+    border: 2px solid black;
+}
+
+tbody{
+    border-right: 2px solid black;
+}
+
+footer{
+    background-color: #42557a;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+}
+
+.btn-custom {
+    background-color: #42557a;
+    border-color: #42557a;
+}
+
